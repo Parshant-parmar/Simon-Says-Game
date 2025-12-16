@@ -1,0 +1,53 @@
+
+body{
+    text-align: center;
+    background-color:#ffcfd2;
+}
+.classs-container{  
+  justify-content: center;
+
+    display: flex;
+}
+
+.btn{
+
+    height: 180px;
+    width: 180px;
+    border-radius: 20%;
+    margin: 3rem;
+    border: 8px solid black;
+   transition: all 0.3s ease;
+}
+
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow:  0 0 200px rgb(255, 255, 255);
+    border-color: #fbffff
+}
+
+.btn1{
+    background-color: #a3c4f3;
+}
+.btn2{
+    background-color:#cfbaf0;
+}
+.btn3{
+    background-color: #8eecf5;
+}
+.btn4{
+    background-color: #f1c0e8;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: greenyellow;
+}
+.bgc{
+    background-color: red;
+}
+.high{
+    text-align: left;
+}
